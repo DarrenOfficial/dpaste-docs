@@ -11,7 +11,7 @@ Create a new Snippet on this dpaste installation. It returns the full URL that s
 **Example request:**
 
 ```bash
-$ curl -X POST -F "format=url" -F "content=ABC" https:/dpaste.org/api/
+$ curl -X POST -F "format=url" -F "content=ABC" https://dpaste.org/api/
 
 Host: dpaste.org
 User-Agent: curl/7.82.0
