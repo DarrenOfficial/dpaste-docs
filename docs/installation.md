@@ -21,6 +21,21 @@ $ docker run --rm -p 12345:12345 \
       darrenofficial/dpaste:latest
 ```
 
+## dpaste with Docker local
+
+Clone the repo, then run
+
+```bash
+docker build -t dpaste:local .
+```
+
+Then you can run it by doing:
+
+```bash
+docker run -p 8000:8000 dpaste:local 
+```
+
+
 ## Integration into an existing Django project
 ---
 
