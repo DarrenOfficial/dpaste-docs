@@ -1,9 +1,22 @@
 Changelog
 =========
 
-3.8 (master)
+
+??? danger "Please update your dpaste instance to v3.8 / latest!"
+
+3.9 (master)
 ------------
 TBD
+
+3.8 (2023-09-18)
+------------
+
+- Typo(s) fixes
+- API sanitizing
+- .gitignore
+- Addresses Typo in Cleanup Snippes
+- Addresses [CVE-2023-49277](https://nvd.nist.gov/vuln/detail/CVE-2023-49277)
+
 
 
 3.7 (2022-06-03)

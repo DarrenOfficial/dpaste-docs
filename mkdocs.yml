@@ -4,32 +4,22 @@ site_url: https://docs.dpaste.org
 site_description: >-
   dpaste is a pastebin application written in Python using the Django framework.
   You can find a live installation on dpaste.org.
-repo_url: 'https://github.com/DarrenOfficial/dpaste'
+repo_url: 'https://git.dpaste.org/dpaste/dpaste-docs/'
 repo_name: 'dpaste'
-edit_uri: 'https://github.com/DarrenOfficial/dpaste-docs/edit/main/docs'
-logo: 'https://darrennathanael.com/favicon.png'
+edit_uri: 'https://git.dpaste.org/dpaste/dpaste-docs/edit/main/docs'
+
 theme:
   palette: 
     - scheme: slate 
       primary: 'black'
-      accent: 'green'
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-    - scheme: default
-      primary: 'teal'
-      accent: 'green'
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
+
   include_search_page: false
   search_index_only: true
   name: material
   font:
-    text: "Red Hat Text"
-    code: "Roboto Mono"
+    text: Nunito Sans
   favicon:
-    'https://darrennathanael.com/favicon.png'
+    'https://lore.dpaste.org/g-brand/v1/favicon-16x16.png'
   features:
     - tabs
     - instantsite

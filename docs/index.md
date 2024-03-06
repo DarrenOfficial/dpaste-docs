@@ -1,4 +1,4 @@
-# Dpaste Documentation
+<h1 style="font-family:Nunito Sans;font-size: 2.5em;font-weight: bold;color: white;">Dpaste Documentation</h1>
 
 ![dpaste image](https://img.shields.io/pypi/v/dpaste.svg)
 [![Python CI](https://github.com/DarrenOfficial/dpaste/actions/workflows/python.yml/badge.svg)](https://github.com/DarrenOfficial/dpaste/actions/workflows/python.yml)
@@ -16,5 +16,7 @@ The project is intended to run standalone as any regular Django Project, but it'
 ![svg mockups](https://cdn.darrennathanael.com/assets/dpaste/dpaste.png)
 
 The code is open source and available on Github: [https://github.com/DarrenOfficial/dpaste](https://github.com/DarrenOfficial/dpaste). If you found bugs, have problems or ideas with the project or the website installation, please create an *Issue* there.
+
+For security vulnerability disclosure please contact darren@dpaste.org
 
 ⚠️ dpaste requires at a minimum Python 3.6 and Django 2.2.
