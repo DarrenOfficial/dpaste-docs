@@ -106,10 +106,12 @@ You can also paste your file content to the API via curl, directly from the comm
 
 
 ```bash
-$ alias dpaste="curl -F 'format=url' -F 'content=<-' https://dpaste.org/api/"
+$ alias dpaste="curl -F 'format=url' -F 'content=<-' https://text.dpaste.org/api/"
 $ cat foo.txt | dpaste
 https://dpaste.org/ke2pB
 ```
+
+In order to get Python syntax highlighting, remove the `text.` part from the command. 
 
 !!! hint "Note"
 
